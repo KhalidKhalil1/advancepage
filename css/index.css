@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/img/backgroundimg.png);
+    line-height: 1.4;
+    color: #999;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    border-bottom: 1px solid grey;
+    box-shadow: 0 0 1px 0.1px;
+    z-index: 99;
+    width: 100%;
+
+}
+
+header h1 {
+    border-radius: 10px;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 99px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    padding-top: 35px;
+    margin-left: 25%;
+
+
+
+}
+
+.navbar1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+
+
+    padding: 5px;
+    float: right;
+
+}
+
+.navbar1 li {
+    float: left;
+    padding: 33px;
+
+
+}
+
+.navbar1 li a {
+    text-decoration: none;
+    color: #999;
+    border-left: 1px solid #efefef93;
+    line-height: 1px;
+    padding-left: 10px;
+
+}
+
+.div1 {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.section1 {
+    margin-bottom: 30px;
+    margin-top: 125px;
+    margin-left: 0px;
+    padding: 30px;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+
+.section1 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #4aaaa5;
+
+    border-bottom: 3px solid #efefef93;
+
+}
+
+.section1 img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    padding-right: 20px;
+}
+
+.section1 p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.nav2 {
+    margin-top: 103px;
+   
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    float: right;
+}
+.nav2 a img{
+    float:left;
+    padding-left: 10px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 70px;
+    height: 60px;
+}
+.nav2 h3{
+    font-size:30px;
+    font-weight:bold;
+    color: #4aaaa5;
+    margin: 20px;
+    border-bottom: 1px solid  #efefef93;
+}
+footer{
+    
+    clear: both;
+    background-color:#4aaaa5;
+    width: 100%;
+    height: 100px;
+
+}
+footer p{
+    border-top: 10px solid #615e5ede;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+}
